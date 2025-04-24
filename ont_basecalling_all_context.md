@@ -37,3 +37,28 @@ Sort and filter bam file to include only primary aligned reads and generate stat
 > **[aligned_sorted_primary.bam]** - sorted bam file of primary reads aligned against reference genome  
 > **[aligned_sorted_stats.txt]** - statistics of input bam file  
 > **[aligned_sorted_primary_stats.txt]** - statistics of output bam file 
+
+## Aggregating methylation data (one file for each C context)
+`modkit pileup [aligned_sorted_primary.bam] [aligned_sorted_primary_CA.bed] --log-filepath [aligned_sorted_primary_CA.log] --ref [ref] -t 16 --filter-threshold C:0.75 --motif CA 0`  
+
+`modkit pileup [aligned_sorted_primary.bam] [aligned_sorted_primary_CC.bed] --log-filepath [aligned_sorted_primary_CC.log] --ref [ref] -t 16 --filter-threshold C:0.75 --motif CC 0`  
+
+`modkit pileup [aligned_sorted_primary.bam] [aligned_sorted_primary_CG.bed] --log-filepath [aligned_sorted_primary_CG.log] --ref [ref] -t 16 --filter-threshold C:0.75 --motif CG 0`  
+
+`modkit pileup [aligned_sorted_primary.bam] [aligned_sorted_primary_CT.bed] --log-filepath [aligned_sorted_primary_CT.log] --ref [ref] -t 16 --filter-threshold C:0.75 --motif CT 0`  
+
+> **[aligned_sorted_primary.bam]** - sorted bam file of primary reads aligned against reference genome  
+> **[aligned_sorted_primary_CA.bed]** - output bedMethyl file showing counts of modified / unmodified bases at each CpA site
+> **[aligned_sorted_primary_CC.bed]** - output bedMethyl file showing counts of modified / unmodified bases at each CpC site
+> **[aligned_sorted_primary_CG.bed]** - output bedMethyl file showing counts of modified / unmodified bases at each CpG site
+> **[aligned_sorted_primary_CT.bed]** - output bedMethyl file showing counts of modified / unmodified bases at each CpT site 
+> **[aligned_sorted_primary_CA.log], [aligned_sorted_primary_CC.log], [aligned_sorted_primary_CG.log], [aligned_sorted_primary_CT.log]** - logfiles  
+> **[ref]** - path to reference genome
+
+### Extracting % modifications into tab-delimited files for downstream analyses  
+
+**Script:** [parse_bedmethyl_5mC_5hmC.pl](scripts/parse_bedmethyl_5mC_5hmC.pl)  
+
+`for f in *.bed; do perl ~/scripts/parse_bedmethyl_5mC_5hmC_cov10.pl $f; done`  
+
+Two files (5mC and 5hmC) are produced for each cystosine context. 

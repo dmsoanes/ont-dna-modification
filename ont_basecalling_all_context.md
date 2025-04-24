@@ -36,8 +36,8 @@ Sort and filter bam file to include only primary aligned reads and generate stat
    
 **Outputs:** 
 > **[aligned_sorted_primary.bam]** - sorted bam file of primary reads aligned against reference genome  
-> **[aligned_sorted_stats.txt]** - statistics of input bam file  
-> **[aligned_sorted_primary_stats.txt]** - statistics of output bam file 
+> **[aligned_sorted_stats.txt]** - statistics of original bam file  
+> **[aligned_sorted_primary_stats.txt]** - statistics of output bam file of primary reads
 
 ## Aggregating methylation data (one file for each C context)
 `modkit pileup [aligned_sorted_primary.bam] [aligned_sorted_primary_CA.bed] --log-filepath [aligned_sorted_primary_CA.log] --ref [ref] -t 16 --filter-threshold C:0.75 --motif CA 0`  

@@ -3,7 +3,7 @@
 Dorado (v0.6.0): https://github.com/nanoporetech/dorado  
 POD5 format (including tools): https://github.com/nanoporetech/pod5-file-format  
 Modkit (v0.2.4): https://github.com/nanoporetech/modkit  
-Samtools (v1.13): https://www.htslib.org/
+Samtools (v1.13): https://www.htslib.org/  
 NanoPlot (v1.41.6) :https://github.com/wdecoster/NanoPlot
 
 ## Conversion of fast5 to pod5 file format (if needed)
@@ -40,4 +40,7 @@ Sort and filter bam file to include only primary aligned reads and generate stat
 
 ## Aggregating methylation data (strands combined)
 `modkit pileup [aligned_sorted_primary.bam] [aligned_sorted_primary.bed] --log-filepath [aligned_sorted_primary.log] --ref [ref] --cpg --combine-strands -t 16 --filter-threshold C:0.75`
-> **[aligned_sorted_primary.bam]** - sorted bam file of primary reads aligned against reference genome
+> **[aligned_sorted_primary.bam]** - sorted bam file of primary reads aligned against reference genome  
+> **[aligned_sorted_primary.bed]** - output bedMethyl file showing counts of modified / unmodified bases at each CpG site 
+> **[aligned_sorted_primary.log]** - logfile  
+> **[ref]** - path to reference genome

@@ -1,5 +1,5 @@
-# Basecalling ONT sequence data using Dorado
-### Software used
+# Modified Basecalling of ONT Data (5mC/5hmC at CpG sites)  
+## Software used
 Dorado (v0.6.0): https://github.com/nanoporetech/dorado  
 POD5 format (including tools): https://github.com/nanoporetech/pod5-file-format  
 Modkit (v0.2.4): https://github.com/nanoporetech/modkit  

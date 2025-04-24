@@ -22,4 +22,6 @@ NanoPlot (v1.41.6) :https://github.com/wdecoster/NanoPlot
 `dorado summary [aligned.bam] > [summary.txt]`  
 **[aligned.bam]** - output bam file of reads aligned against reference genome
 
-`NanoPlot --summary sequencing_summary_SAMPLE814_v2_5mCG_sup_10.txt -t 16 --loglength -o nanoplot_SAMPLE814_v2_5mCG_sup_10`
+`NanoPlot --summary [summary.txt] -t 16 --loglength -o [nanoplot_qc]`  
+**[summary.txt]** - summary file  
+**[nanoplot_qc]** - output folder containing QC analysis

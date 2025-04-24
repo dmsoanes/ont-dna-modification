@@ -55,7 +55,7 @@ Sort and filter bam file to include only primary aligned reads and generate stat
 ## Aggregating methylation data (strands separated)
 `modkit pileup [aligned_sorted_primary.bam] [aligned_sorted_primary_stranded.bed] --log-filepath [aligned_sorted_primary.log] --ref [ref] --cpg -t 16 --filter-threshold C:0.75`
 > **[aligned_sorted_primary.bam]** - sorted bam file of primary reads aligned against reference genome  
-> **[aligned_sorted_primary_stranded.bed]** - output bedMethyl file showing counts of modified / unmodified bases at each CpG site, with strand information  
+> **[aligned_sorted_primary_stranded.bed]** - output bedMethyl file showing counts of modified / unmodified bases at each CpG site (separated by strand)  
 > **[aligned_sorted_primary.log]** - logfile  
 > **[ref]** - path to reference genome
 
@@ -64,4 +64,4 @@ Sort and filter bam file to include only primary aligned reads and generate stat
 **Script:** [parse_bedmethyl_5mC_5hmC_stranded.pl](scripts/parse_bedmethyl_5mC_5hmC_stranded.pl)  
 
 `parse_bedmethyl_5mC_5hmC_stranded.pl [aligned_sorted_primary_stranded.bed]`  
-> **[aligned_sorted_primary_stranded.bed]** - bedMethyl file showing counts of modified / unmodified bases at each CpG site
+> **[aligned_sorted_primary_stranded.bed]** - bedMethyl file showing counts of modified / unmodified bases at each CpG site (separated by strand)

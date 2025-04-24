@@ -44,3 +44,10 @@ Sort and filter bam file to include only primary aligned reads and generate stat
 > **[aligned_sorted_primary.bed]** - output bedMethyl file showing counts of modified / unmodified bases at each CpG site 
 > **[aligned_sorted_primary.log]** - logfile  
 > **[ref]** - path to reference genome
+
+### Extracting % modifications into tab-delimited files for downstream analyses  
+
+**Script:** [parse_bedmethyl_5mC_5hmC.pl](scripts/parse_bedmethyl_5mC_5hmC.pl)  
+
+`perl parse_bedmethyl_5mC_5hmC.pl [aligned_sorted_primary.bed]`  
+> **[aligned_sorted_primary.bed]** - bedMethyl file showing counts of modified / unmodified bases at each CpG site

@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-# Perl script to parse bedMethyl files producing two tab-delimited files containing %5mC / %5hmC at each CpG. Strand also included.
+# Perl script to parse bedMethyl files producing two tab-delimited files containing %5mC / %5hmC at each CpG. Each site is seperated by strand.
 # Usage: perl parse_bedmethyl_5mC_5hmC.pl <input.bed> 
 
 $num_args=$#ARGV+1;

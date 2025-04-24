@@ -1,4 +1,4 @@
-# Basecalling ONT sequence data using Dorado
+# Basecalling ONT sequence data with 5mC / 5hmC modification in CpG context using Dorado
 ### Software used
 Dorado (v0.6.0): https://github.com/nanoporetech/dorado  
 POD5 format (including tools): https://github.com/nanoporetech/pod5-file-format  
@@ -31,8 +31,9 @@ Sort and filter bam file to include only primary aligned reads and generate stat
 **Script:** [process_bam.sh](scripts/process_bam.sh) 
 
 `process_bam.sh [aligned.bam]`  
-> **[aligned.bam]** - output bam file of reads aligned against reference genome  
-Outputs: 
+> **[aligned.bam]** - output bam file of reads aligned against reference genome
+   
+**Outputs:** 
 > **[aligned_sorted_primary.bam]** - sorted bam file of primary reads aligned against reference genome  
 > **[aligned_sorted_stats.txt]** - statistics of input bam file  
 > **[aligned_sorted_primary_stats.txt]** - statistics of output bam file  

@@ -12,8 +12,8 @@ NanoPlot (v1.41.6) :https://github.com/wdecoster/NanoPlot
 > **[pod5]** - directory where pod5 files will be created
 
 ## Basecalling with 5mC / 5hmC modification in CpG context (super-high accuracy, minimum qscore = 10)
-`dorado basecaller -r --modified-bases 5mCG_5hmCG --min-qscore 10 --reference [ref] [dorado_installation]/models/dna_r10.4.1_e8.2_400bps_sup@v4.3.0 [pod5] > [aligned.bam]`  
-> **[ref]** - path to reference genome  
+`dorado basecaller -r --modified-bases 5mCG_5hmCG --min-qscore 10 --reference [ref.fa] [dorado_installation]/models/dna_r10.4.1_e8.2_400bps_sup@v4.3.0 [pod5] > [aligned.bam]`  
+> **[ref.fa]** - reference genome (fasta file of genome assembly)  
 > **[dorado_installation]** - path to dorado installation  
 > **[pod5]** - path to directory of pod5 files  
 > **[aligned.bam]** - output bam file of reads aligned against reference genome  
@@ -40,11 +40,11 @@ Sort and filter bam file to include only primary aligned reads and generate stat
 > **[aligned_sorted_primary_stats.txt]** - statistics of output bam file of primary reads  
 
 ## Aggregating methylation data (strands combined)
-`modkit pileup [aligned_sorted_primary.bam] [aligned_sorted_primary.bed] --log-filepath [aligned_sorted_primary.log] --ref [ref] --cpg --combine-strands -t 16 --filter-threshold C:0.75`
+`modkit pileup [aligned_sorted_primary.bam] [aligned_sorted_primary.bed] --log-filepath [aligned_sorted_primary.log] --ref [ref.fa] --cpg --combine-strands -t 16 --filter-threshold C:0.75`
 > **[aligned_sorted_primary.bam]** - sorted bam file of primary reads aligned against reference genome  
 > **[aligned_sorted_primary.bed]** - output bedMethyl file showing counts of modified / unmodified bases at each CpG site 
 > **[aligned_sorted_primary.log]** - logfile  
-> **[ref]** - path to reference genome
+> **[ref.fa]** - reference genome (fasta file of genome assembly)
 
 ### Extracting % modifications into tab-delimited files for downstream analyses  
 
@@ -54,11 +54,11 @@ Sort and filter bam file to include only primary aligned reads and generate stat
 > **[aligned_sorted_primary.bed]** - bedMethyl file showing counts of modified / unmodified bases at each CpG site
 
 ## Aggregating methylation data (strands separated)
-`modkit pileup [aligned_sorted_primary.bam] [aligned_sorted_primary_stranded.bed] --log-filepath [aligned_sorted_primary.log] --ref [ref] --cpg -t 16 --filter-threshold C:0.75`
+`modkit pileup [aligned_sorted_primary.bam] [aligned_sorted_primary_stranded.bed] --log-filepath [aligned_sorted_primary.log] --ref [ref.fa] --cpg -t 16 --filter-threshold C:0.75`
 > **[aligned_sorted_primary.bam]** - sorted bam file of primary reads aligned against reference genome  
 > **[aligned_sorted_primary_stranded.bed]** - output bedMethyl file showing counts of modified / unmodified bases at each CpG site (separated by strand)  
 > **[aligned_sorted_primary.log]** - logfile  
-> **[ref]** - path to reference genome
+> **[ref.fa]** - reference genome (fasta file of genome assembly)
 
 ### Extracting % modifications into tab-delimited files for downstream analyses  
 

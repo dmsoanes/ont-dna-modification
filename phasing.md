@@ -8,4 +8,7 @@ methylartist (v1.3.1): https://github.com/adamewing/methylartist
 >**[aligned_sorted_primary.bam]** - sorted bam file of primary reads aligned against reference genome  
 >**[ref.fa]** - reference genome (fasta file of genome assembly)  
 >**[clair3_installation]** - path to clair3 installation  
->**[clair3_aligned_sorted_primary]** - existing directory for output of data   
+>**[clair3_aligned_sorted_primary]** - existing directory for output of data
+
+**Outputs:** 
+>**[phased_output.bam]** - sorted bam file of primary reads aligned against reference genome tagged with phase information  

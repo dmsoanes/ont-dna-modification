@@ -17,8 +17,27 @@ methylartist (v1.3.1): https://github.com/adamewing/methylartist
 Use modkit adjust-mods to convert h (5hmC) to m (5mC), simplifies methylartist plots
 
 `modkit adjust-mods [phased_output.bam] [phased_output_convert.bam] --convert h m -t 16`  
+
+`samtools index -@ 16 [phased_output_convert.bam]`  
+
 >**[phased_output.bam]** - sorted bam file of primary reads aligned against reference genome tagged with phase information
 >**[phased_output_convert.bam]** - output file in which h has been converted to m  
 
+## Create compressed, index GTF file
+Download GTF file showing genes from genome assembly used in alignment  
+Create compressed, indexed GTP file using bgzip and tabix which are part of Samtools package
+
+`(grep "^#" [genome_assembly.annotation.gtf]; grep -v "^#" [genome_assembly.annotation.gtf] | sort -t"`printf '\t'`" -k1,1 -k4,4n) | bgzip > [genome_assembly.annotation.gtf.gz]`  
+
+`tabix -p gff [genome_assembly.annotation.gtf.gz]`  
+>**[genome_assembly.annotation.gtf]** - gtf file containing genome annotation  
+>**[genome_assembly.annotation.gtf.gz]** - bgzip compressed gtf file
 ## Visualisation of imprinted region
-Create compressed, index GTF file
+Example code for creating plot using methylartist showing levels of modification in each phase.  
+More details at https://github.com/adamewing/methylartist
+
+`methylartist locus -b [phased_output_convert.bam] -g [genome_assembly.annotation.gtf.gz] --labelgenes --phased --ref [ref.fa] --motif CG -i chr20:31545000-31550000`
+>**[genome_assembly.annotation.gtf.gz]** - bgzip compressed gtf file  
+>**[phased_output_convert.bam]** - sorted bam file of primary reads aligned against reference genome tagged with phase information (5mC and 5hmC merged)  
+>**[ref.fa]** - reference genome (fasta file of genome assembly)  
+>**-i chr20:31545000-31550000** - chromosomal region covered in plot 

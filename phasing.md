@@ -13,3 +13,9 @@ methylartist (v1.3.1): https://github.com/adamewing/methylartist
 
 **Outputs:** 
 >**[phased_output.bam]** - sorted bam file of primary reads aligned against reference genome tagged with phase information  
+## Merging of 5mC/5hmC (optional)
+Use modkit adjust-mods to convert h (5hmC) to m (5mC), simplifies methylartist plots
+
+`modkit adjust-mods [phased_output.bam] [phased_output_convert.bam] --convert h m -t 16`  
+>**[phased_output.bam]** - sorted bam file of primary reads aligned against reference genome tagged with phase information
+>**[phased_output_convert.bam]** - output file in which h has been converted to m  

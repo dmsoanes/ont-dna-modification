@@ -13,7 +13,7 @@ NanoPlot (v1.41.6) :https://github.com/wdecoster/NanoPlot
 
 ## Basecalling with 5mC / 5hmC modification in all contexts (super-high accuracy, minimum qscore = 10)
 `dorado basecaller -r --modified-bases 5mC_5hmC --min-qscore 10 --reference [ref.fa] [dorado_installation]/models/dna_r10.4.1_e8.2_400bps_sup@v4.3.0 [pod5] > [aligned.bam]`  
-> **[ref.fa]** - path to reference genome (fasta file of genome assembly)  
+> **[ref.fa]** - reference genome (fasta file of genome assembly)  
 > **[dorado_installation]** - path to dorado installation  
 > **[pod5]** - path to directory of pod5 files  
 > **[aligned.bam]** - output bam file of reads aligned against reference genome  
@@ -54,7 +54,7 @@ Sort and filter bam file to include only primary aligned reads and generate stat
 > **[aligned_sorted_primary_CG.bed]** - output bedMethyl file showing counts of modified / unmodified bases at each CpG site
 > **[aligned_sorted_primary_CT.bed]** - output bedMethyl file showing counts of modified / unmodified bases at each CpT site 
 > **[aligned_sorted_primary_CA.log], [aligned_sorted_primary_CC.log], [aligned_sorted_primary_CG.log], [aligned_sorted_primary_CT.log]** - logfiles  
-> **[ref.fa]** - path to reference genome (fasta file of genome assembly)  
+> **[ref.fa]** - reference genome (fasta file of genome assembly)  
 
 ### Extracting % modifications into tab-delimited files for downstream analyses  
 

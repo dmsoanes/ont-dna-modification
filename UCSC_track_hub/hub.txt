@@ -1,5 +1,5 @@
 hub ONT_FANS_brain
 shortLabel ONT FANS brain
 longLabel DNA modifications in specific nuclei populations purified from human brain
-genomesFile https://github.com/dmsoanes/ont-dna-modification/tree/main/UCSC_track_hub/genomes.txt
+genomesFile https://github.com/dmsoanes/ont-dna-modification/tree/main/UCSC_track_hub/genomes.txt?raw=true
 email d.m.soanes@exeter.ac.uk

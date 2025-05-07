@@ -1,0 +1,2 @@
+genome hg38
+trackDb assembly_1_path/trackDb.txt

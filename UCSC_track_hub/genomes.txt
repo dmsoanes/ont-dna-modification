@@ -1,2 +1,2 @@
 genome hg38
-trackDb assembly_1_path/trackDb.txt
+trackDb https://github.com/dmsoanes/ont-dna-modification/blob/main/UCSC_track_hub/trackDb.txt?raw=true

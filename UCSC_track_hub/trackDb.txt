@@ -9,7 +9,7 @@ color 0,0,139
 track NeuN_ONT_5hmC
 type bigWig
 bigDataUrl https://sme.uds.exeter.ac.uk/files/e7bfe7ec033575704b1039632f70cff3.bw
-shortLabel NeuN ONT 5hmC
+shortLabel NeuN ONT % 5hmC
 longLabel Percentage hydroxymethylation at CpG sites in neuronal cells using ONT
 visibility full
 color 173,216,230
@@ -17,7 +17,7 @@ color 173,216,230
 track Sox10_ONT_5mC
 type bigWig
 bigDataUrl https://sme.uds.exeter.ac.uk/files/fa4e030e93bf1ab7b30bdbe00d965c77.bw
-shortLabel Sox10 ONT 5mC
+shortLabel Sox10 ONT % 5mC
 longLabel Percentage methylation at CpG sites in oligodendrocyte cells using ONT
 visibility full
 color 139,0,0
@@ -25,7 +25,23 @@ color 139,0,0
 track Sox10_ONT_5hmC
 type bigWig
 bigDataUrl https://sme.uds.exeter.ac.uk/files/67de378e5d89317412171911d2076123.bw 
-shortLabel Sox10 ONT 5hmC
+shortLabel Sox10 ONT % 5hmC
 longLabel Percentage hydroxymethylation at CpG sites in oligodendrocyte cells using ONT
 visibility full
 color 255,192,203
+
+track IRF8_ONT_5mC
+type bigWig
+bigDataUrl https://sme.uds.exeter.ac.uk/files/420d6dc2904ca277e6ed86ca52a81567.bw
+shortLabel IRF8 ONT % 5mC
+longLabel Percentage methylation at CpG sites in microglial cells using ONT
+visibility full
+color color 0,100,0
+
+track IRF8_ONT_5hmC
+type bigWig
+bigDataUrl https://sme.uds.exeter.ac.uk/files/1bd1edc1894dd745fb518d039f2793bc.bw  
+shortLabel IRF8 ONT % 5hmC
+longLabel Percentage hydroxymethylation at CpG sites in microglial cells using ONT
+visibility full
+color 144,238,144

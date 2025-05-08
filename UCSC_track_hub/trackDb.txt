@@ -88,3 +88,62 @@ autoScale off
 smoothingWindow 16
 maxHeightPixels 128:70:11
 
+track NeuN_evoC_5mC
+type bigWig
+bigDataUrl https://sme.uds.exeter.ac.uk/files/4234f2c53b5af29b5578f9d23b387ec8.bw
+shortLabel NeuN evoC % 5mC
+longLabel Percentage methylation at CpG sites in neuronal cells using duet evoC
+visibility full
+color 0,0,139
+graphTypeDefault points
+windowingFunction mean
+yLineOnOff on
+viewLimits 0:100
+autoScale off
+smoothingWindow 16
+maxHeightPixels 128:70:11
+
+track NeuN_evoC_5hmC
+type bigWig
+bigDataUrl https://sme.uds.exeter.ac.uk/files/dc7f72943f024b7ddd95bb3123c687d1.bw
+shortLabel NeuN evoC % 5hmC
+longLabel Percentage hydroxymethylation at CpG sites in neuronal cells using duet evoC
+visibility full
+color 173,216,230
+graphTypeDefault points
+windowingFunction mean
+yLineOnOff on
+viewLimits 0:100
+autoScale off
+smoothingWindow 16
+maxHeightPixels 128:70:11
+
+track Sox10_evoC_5mC
+type bigWig
+bigDataUrl https://sme.uds.exeter.ac.uk/files/d8b8a8e2f6370efbe7131c6259b9eac3.bw
+shortLabel Sox10 evoC % 5mC
+longLabel Percentage methylation at CpG sites in oligodendrocyte cells using duet evoC
+visibility full
+color 139,0,0
+graphTypeDefault points
+windowingFunction mean
+yLineOnOff on
+viewLimits 0:100
+autoScale off
+smoothingWindow 16
+maxHeightPixels 128:70:11
+
+track Sox10_evoC_5hmC
+type bigWig
+bigDataUrl https://sme.uds.exeter.ac.uk/files/6786369f6731d6d2be77464599334b98.bw 
+shortLabel Sox10 evoC % 5hmC
+longLabel Percentage hydroxymethylation at CpG sites in oligodendrocyte cells using duet evoC
+visibility full
+color 255,192,203
+graphTypeDefault points
+windowingFunction mean
+yLineOnOff on
+viewLimits 0:100
+autoScale off
+smoothingWindow 16
+maxHeightPixels 128:70:11

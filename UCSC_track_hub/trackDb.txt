@@ -36,7 +36,7 @@ bigDataUrl https://sme.uds.exeter.ac.uk/files/420d6dc2904ca277e6ed86ca52a81567.b
 shortLabel IRF8 ONT % 5mC
 longLabel Percentage methylation at CpG sites in microglial cells using ONT
 visibility full
-color color 0,100,0
+color 0,100,0
 
 track IRF8_ONT_5hmC
 type bigWig

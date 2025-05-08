@@ -5,6 +5,13 @@ shortLabel NeuN ONT % 5mC
 longLabel Percentage methylation at CpG sites in neuronal cells using ONT
 visibility full
 color 0,0,139
+graphTypeDefault points
+windowingFunction mean
+yLineOnOff on
+viewLimits 0:100
+autoScale off
+smoothingWindow
+maxHeightPixels 128:70:11
 
 track NeuN_ONT_5hmC
 type bigWig

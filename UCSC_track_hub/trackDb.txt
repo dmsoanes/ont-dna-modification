@@ -20,6 +20,13 @@ shortLabel NeuN ONT % 5hmC
 longLabel Percentage hydroxymethylation at CpG sites in neuronal cells using ONT
 visibility full
 color 173,216,230
+graphTypeDefault points
+windowingFunction mean
+yLineOnOff on
+viewLimits 0:100
+autoScale off
+smoothingWindow 16
+maxHeightPixels 128:70:11
 
 track Sox10_ONT_5mC
 type bigWig
@@ -28,6 +35,13 @@ shortLabel Sox10 ONT % 5mC
 longLabel Percentage methylation at CpG sites in oligodendrocyte cells using ONT
 visibility full
 color 139,0,0
+graphTypeDefault points
+windowingFunction mean
+yLineOnOff on
+viewLimits 0:100
+autoScale off
+smoothingWindow 16
+maxHeightPixels 128:70:11
 
 track Sox10_ONT_5hmC
 type bigWig
@@ -36,6 +50,13 @@ shortLabel Sox10 ONT % 5hmC
 longLabel Percentage hydroxymethylation at CpG sites in oligodendrocyte cells using ONT
 visibility full
 color 255,192,203
+graphTypeDefault points
+windowingFunction mean
+yLineOnOff on
+viewLimits 0:100
+autoScale off
+smoothingWindow 16
+maxHeightPixels 128:70:11
 
 track IRF8_ONT_5mC
 type bigWig
@@ -44,6 +65,13 @@ shortLabel IRF8 ONT % 5mC
 longLabel Percentage methylation at CpG sites in microglial cells using ONT
 visibility full
 color 0,100,0
+graphTypeDefault points
+windowingFunction mean
+yLineOnOff on
+viewLimits 0:100
+autoScale off
+smoothingWindow 16
+maxHeightPixels 128:70:11
 
 track IRF8_ONT_5hmC
 type bigWig
@@ -52,4 +80,11 @@ shortLabel IRF8 ONT % 5hmC
 longLabel Percentage hydroxymethylation at CpG sites in microglial cells using ONT
 visibility full
 color 144,238,144
+graphTypeDefault points
+windowingFunction mean
+yLineOnOff on
+viewLimits 0:100
+autoScale off
+smoothingWindow 16
+maxHeightPixels 128:70:11
 

@@ -13,3 +13,19 @@ shortLabel NeuN ONT 5hmC
 longLabel Percentage hydroxymethylation at CpG sites in neuronal cells using ONT
 visibility full
 color 173,216,230
+
+track Sox10_ONT_5mC
+type bigWig
+bigDataUrl https://sme.uds.exeter.ac.uk/files/fa4e030e93bf1ab7b30bdbe00d965c77.bw
+shortLabel Sox10 ONT 5mC
+longLabel Percentage methylation at CpG sites in oligodendrocyte cells using ONT
+visibility full
+color 139,0,0
+
+track Sox10_ONT_5hmC
+type bigWig
+bigDataUrl https://sme.uds.exeter.ac.uk/files/67de378e5d89317412171911d2076123.bw 
+shortLabel Sox10 ONT 5hmC
+longLabel Percentage hydroxymethylation at CpG sites in oligodendrocyte cells using ONT
+visibility full
+color 255,192,203

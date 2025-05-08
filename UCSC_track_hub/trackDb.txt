@@ -10,7 +10,7 @@ windowingFunction mean
 yLineOnOff on
 viewLimits 0:100
 autoScale off
-smoothingWindow
+smoothingWindow 16
 maxHeightPixels 128:70:11
 
 track NeuN_ONT_5hmC

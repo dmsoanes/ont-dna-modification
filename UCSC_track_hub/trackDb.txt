@@ -1,1 +1,7 @@
-
+track NeuN_ONT_5mC
+type bigWig
+bigDataUrl https://sme.uds.exeter.ac.uk/files/2cba66168c4fb0922c33cd09ac496923.bw
+shortLabel NeuN ONT 5mC
+longLabel Percentage methylation at CpG site is neuronal cells determined with ONT
+visibility full
+color 0,0,139

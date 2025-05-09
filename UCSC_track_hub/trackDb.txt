@@ -177,3 +177,17 @@ viewLimits 0:100
 autoScale off
 smoothingWindow 16
 maxHeightPixels 128:70:11
+
+track NeuN_EPICv2
+type bigWig
+bigDataUrl https://sme.uds.exeter.ac.uk/files/1e658a79741432e42e66ed4872f3403d.bw
+shortLabel NeuN EPICv2 % mod
+longLabel Percentage modified cytosine at CpG sites in neuronal cells using EPICv2 array
+visibility full
+color 0,0,255
+graphTypeDefault bar
+windowingFunction mean
+yLineOnOff on
+viewLimits 0:100
+autoScale off
+maxHeightPixels 128:70:11

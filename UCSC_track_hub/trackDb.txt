@@ -32,7 +32,7 @@ track Sox10_ONT_5mC
 type bigWig
 bigDataUrl https://sme.uds.exeter.ac.uk/files/fa4e030e93bf1ab7b30bdbe00d965c77.bw
 shortLabel Sox10 ONT % 5mC
-longLabel Percentage methylation at CpG sites in oligodendrocyte cells using ONT
+longLabel Percentage methylation at CpG sites in oligodendrocytes using ONT
 visibility full
 color 139,0,0
 graphTypeDefault points
@@ -47,7 +47,7 @@ track Sox10_ONT_5hmC
 type bigWig
 bigDataUrl https://sme.uds.exeter.ac.uk/files/67de378e5d89317412171911d2076123.bw 
 shortLabel Sox10 ONT % 5hmC
-longLabel Percentage hydroxymethylation at CpG sites in oligodendrocyte cells using ONT
+longLabel Percentage hydroxymethylation at CpG sites in oligodendrocytes using ONT
 visibility full
 color 255,192,203
 graphTypeDefault points
@@ -122,7 +122,7 @@ track Sox10_evoC_5mC
 type bigWig
 bigDataUrl https://sme.uds.exeter.ac.uk/files/d8b8a8e2f6370efbe7131c6259b9eac3.bw
 shortLabel Sox10 evoC % 5mC
-longLabel Percentage methylation at CpG sites in oligodendrocyte cells using duet evoC
+longLabel Percentage methylation at CpG sites in oligodendrocytes using duet evoC
 visibility full
 color 139,0,0
 graphTypeDefault points
@@ -137,7 +137,7 @@ track Sox10_evoC_5hmC
 type bigWig
 bigDataUrl https://sme.uds.exeter.ac.uk/files/6786369f6731d6d2be77464599334b98.bw 
 shortLabel Sox10 evoC % 5hmC
-longLabel Percentage hydroxymethylation at CpG sites in oligodendrocyte cells using duet evoC
+longLabel Percentage hydroxymethylation at CpG sites in oligodendrocytes using duet evoC
 visibility full
 color 255,192,203
 graphTypeDefault points
@@ -167,7 +167,7 @@ track Sox10_TWIST
 type bigWig
 bigDataUrl https://sme.uds.exeter.ac.uk/files/cb8fa4b78e0e5739984f96c6c6f14e9a.bw
 shortLabel Sox10 TWIST % mod
-longLabel Percentage modified cytosine at TWIST HMP CpG sites in oligodendrocyte cells
+longLabel Percentage modified cytosine at TWIST HMP CpG sites in oligodendrocytes
 visibility full
 color 255,0,0
 graphTypeDefault points
@@ -185,6 +185,34 @@ shortLabel NeuN EPICv2 % mod
 longLabel Percentage modified cytosine at CpG sites in neuronal cells using EPICv2 array
 visibility full
 color 0,0,255
+graphTypeDefault bar
+windowingFunction mean
+yLineOnOff on
+viewLimits 0:100
+autoScale off
+maxHeightPixels 128:70:11
+
+track Sox10_EPICv2
+type bigWig
+bigDataUrl https://sme.uds.exeter.ac.uk/files/760acc8af4e660004f6197d666df0f14.bw
+shortLabel Sox10 EPICv2 % mod
+longLabel Percentage modified cytosine at CpG sites in oligodendrocytes using EPICv2 array
+visibility full
+color 255,0,0
+graphTypeDefault bar
+windowingFunction mean
+yLineOnOff on
+viewLimits 0:100
+autoScale off
+maxHeightPixels 128:70:11
+
+track IRF8_EPICv2
+type bigWig
+bigDataUrl https://sme.uds.exeter.ac.uk/files/1326f3e13f84e5ce41b618b85c859fcf.bw
+shortLabel IRF8 EPICv2 % mod
+longLabel Percentage modified cytosine at CpG sites in microglial cells using EPICv2 array
+visibility full
+color 0,255,0
 graphTypeDefault bar
 windowingFunction mean
 yLineOnOff on

@@ -147,3 +147,33 @@ viewLimits 0:100
 autoScale off
 smoothingWindow 16
 maxHeightPixels 128:70:11
+
+track NeuN_TWIST
+type bigWig
+bigDataUrl https://sme.uds.exeter.ac.uk/files/c37a5f18a3f76b74d8af73637af8454e.bw
+shortLabel NeuN TWIST % mod
+longLabel Percentage modified cytosine at CpG sites in neuronal cells using Twist Human Methylome Panel
+visibility full
+color 0,0,255
+graphTypeDefault points
+windowingFunction mean
+yLineOnOff on
+viewLimits 0:100
+autoScale off
+smoothingWindow 16
+maxHeightPixels 128:70:11
+
+track Sox10_TWIST
+type bigWig
+bigDataUrl https://sme.uds.exeter.ac.uk/files/cb8fa4b78e0e5739984f96c6c6f14e9a.bw
+shortLabel Sox10 TWIST % mod
+longLabel Percentage modified cytosine at CpG sites in oligodendrocyte cells using Twist Human Methylome Panel
+visibility full
+color 255,0,0
+graphTypeDefault points
+windowingFunction mean
+yLineOnOff on
+viewLimits 0:100
+autoScale off
+smoothingWindow 16
+maxHeightPixels 128:70:11

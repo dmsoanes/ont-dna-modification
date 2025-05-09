@@ -152,7 +152,7 @@ track NeuN_TWIST
 type bigWig
 bigDataUrl https://sme.uds.exeter.ac.uk/files/c37a5f18a3f76b74d8af73637af8454e.bw
 shortLabel NeuN TWIST % mod
-longLabel Percentage modified cytosine at CpG sites in neuronal cells using TWIST HMP
+longLabel Percentage modified cytosine at TWIST HMP CpG sites in neuronal cells
 visibility full
 color 0,0,255
 graphTypeDefault points
@@ -167,7 +167,7 @@ track Sox10_TWIST
 type bigWig
 bigDataUrl https://sme.uds.exeter.ac.uk/files/cb8fa4b78e0e5739984f96c6c6f14e9a.bw
 shortLabel Sox10 TWIST % mod
-longLabel Percentage modified cytosine at CpG sites in oligodendrocyte cells using TWIST HMP
+longLabel Percentage modified cytosine at TWIST HMP CpG sites in oligodendrocyte cells
 visibility full
 color 255,0,0
 graphTypeDefault points

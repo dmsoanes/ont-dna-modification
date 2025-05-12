@@ -220,16 +220,16 @@ viewLimits 0:100
 autoScale off
 maxHeightPixels 128:70:11
 
-track NeuN_hydroxymethylome
+track NeuN_5hmC_enriched
 type bigNarrowPeak
 bigDataUrl https://sme.uds.exeter.ac.uk/files/fcbeabd0e1b862d18dce0cb8752ecea3.bb
-shortLabel NeuN hydroxymethylome
+shortLabel NeuN 5hmC enriched
 longLabel 5hmC enriched regions from hydroxymethylome capture library
 visibility dense
 
-track Sox10_hydroxymethylome
+track Sox10_5hmC_enriched
 type bigNarrowPeak
 bigDataUrl https://sme.uds.exeter.ac.uk/files/25d0dc1d2c51c71a8256906dd783ff95.bb
-shortLabel Sox10 hydroxymethylome
+shortLabel Sox10 5hmC enriched
 longLabel 5hmC enriched regions from hydroxymethylome capture library
 visibility dense

@@ -239,4 +239,5 @@ type bigGenePred
 bigDataUrl https://sme.uds.exeter.ac.uk/files/ee624be9ca94872688ea2f45bfc394d3.bb
 shortLabel NeuN RNA-seq 4th_quartile
 longLabel NeuN genes in 4th quartile based on RNA-seq expression (TPM)
-visibility full
+visibility dense
+color 0,153,255

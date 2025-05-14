@@ -296,4 +296,4 @@ bigDataUrl https://sme.uds.exeter.ac.uk/files/dcfee671ddda57807fefaf8590844186.b
 shortLabel Sox10 4th quartile
 longLabel Sox10 genes in 4th quartile based on RNA-seq expression (TPM)
 visibility dense
-color 255,69,69
+color 255,150,150

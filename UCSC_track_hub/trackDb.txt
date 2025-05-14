@@ -270,7 +270,7 @@ track oligo_1st_quartile
 type bigGenePred
 bigDataUrl https://sme.uds.exeter.ac.uk/files/e0fdfc610b9c19f43ef19b33ce05e881.bb
 shortLabel oligo 1st quartile
-longLabel Genes in 4st quartile based on RNA-seq expression (TPM) in oligodendrocytes
+longLabel Genes in 1st quartile based on RNA-seq expression (TPM) in oligodendrocytes
 visibility dense
 color 100,0,0
 

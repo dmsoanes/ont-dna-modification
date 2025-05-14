@@ -19,7 +19,7 @@ bigDataUrl https://sme.uds.exeter.ac.uk/files/e7bfe7ec033575704b1039632f70cff3.b
 shortLabel neuron ONT % 5hmC
 longLabel Percentage hydroxymethylation at CpG sites in neuronal cells using ONT
 visibility full
-color 173,216,230
+color 173,150,150
 graphTypeDefault points
 windowingFunction mean
 yLineOnOff on

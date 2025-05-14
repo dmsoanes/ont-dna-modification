@@ -1,5 +1,5 @@
 hub DNA_modifications_in_human_brain_cell-types
 shortLabel DNA modifications in human brain cell-types
-longLabel DNA modifications in specific nuclei populations purified from human brain
+longLabel DNA modifications in specific cell populations purified from human brain
 genomesFile https://github.com/dmsoanes/ont-dna-modification/blob/main/UCSC_track_hub/genomes.txt?raw=true
 email d.m.soanes@exeter.ac.uk

@@ -1,7 +1,7 @@
-track NeuN_ONT_5mC
+track neuron_ONT_5mC
 type bigWig
 bigDataUrl https://sme.uds.exeter.ac.uk/files/2cba66168c4fb0922c33cd09ac496923.bw
-shortLabel NeuN ONT % 5mC
+shortLabel neuron ONT % 5mC
 longLabel Percentage methylation at CpG sites in neuronal cells using ONT
 visibility full
 color 0,0,139
@@ -13,10 +13,10 @@ autoScale off
 smoothingWindow 16
 maxHeightPixels 128:70:11
 
-track NeuN_ONT_5hmC
+track neuron_ONT_5hmC
 type bigWig
 bigDataUrl https://sme.uds.exeter.ac.uk/files/e7bfe7ec033575704b1039632f70cff3.bw
-shortLabel NeuN ONT % 5hmC
+shortLabel neuron ONT % 5hmC
 longLabel Percentage hydroxymethylation at CpG sites in neuronal cells using ONT
 visibility full
 color 173,216,230
@@ -28,10 +28,10 @@ autoScale off
 smoothingWindow 16
 maxHeightPixels 128:70:11
 
-track Sox10_ONT_5mC
+track oligo_ONT_5mC
 type bigWig
 bigDataUrl https://sme.uds.exeter.ac.uk/files/fa4e030e93bf1ab7b30bdbe00d965c77.bw
-shortLabel Sox10 ONT % 5mC
+shortLabel oligo ONT % 5mC
 longLabel Percentage methylation at CpG sites in oligodendrocytes using ONT
 visibility full
 color 139,0,0
@@ -43,10 +43,10 @@ autoScale off
 smoothingWindow 16
 maxHeightPixels 128:70:11
 
-track Sox10_ONT_5hmC
+track oligo_ONT_5hmC
 type bigWig
 bigDataUrl https://sme.uds.exeter.ac.uk/files/67de378e5d89317412171911d2076123.bw 
-shortLabel Sox10 ONT % 5hmC
+shortLabel oligo ONT % 5hmC
 longLabel Percentage hydroxymethylation at CpG sites in oligodendrocytes using ONT
 visibility full
 color 255,192,203
@@ -58,10 +58,10 @@ autoScale off
 smoothingWindow 16
 maxHeightPixels 128:70:11
 
-track IRF8_ONT_5mC
+track micro_ONT_5mC
 type bigWig
 bigDataUrl https://sme.uds.exeter.ac.uk/files/420d6dc2904ca277e6ed86ca52a81567.bw
-shortLabel IRF8 ONT % 5mC
+shortLabel micro ONT % 5mC
 longLabel Percentage methylation at CpG sites in microglial cells using ONT
 visibility full
 color 0,100,0
@@ -73,10 +73,10 @@ autoScale off
 smoothingWindow 16
 maxHeightPixels 128:70:11
 
-track IRF8_ONT_5hmC
+track micro_ONT_5hmC
 type bigWig
 bigDataUrl https://sme.uds.exeter.ac.uk/files/1bd1edc1894dd745fb518d039f2793bc.bw  
-shortLabel IRF8 ONT % 5hmC
+shortLabel micro ONT % 5hmC
 longLabel Percentage hydroxymethylation at CpG sites in microglial cells using ONT
 visibility full
 color 144,238,144
@@ -88,10 +88,10 @@ autoScale off
 smoothingWindow 16
 maxHeightPixels 128:70:11
 
-track NeuN_evoC_5mC
+track neuron_evoC_5mC
 type bigWig
 bigDataUrl https://sme.uds.exeter.ac.uk/files/4234f2c53b5af29b5578f9d23b387ec8.bw
-shortLabel NeuN evoC % 5mC
+shortLabel neuron evoC % 5mC
 longLabel Percentage methylation at CpG sites in neuronal cells using duet evoC
 visibility full
 color 0,0,139
@@ -103,10 +103,10 @@ autoScale off
 smoothingWindow 16
 maxHeightPixels 128:70:11
 
-track NeuN_evoC_5hmC
+track neuron_evoC_5hmC
 type bigWig
 bigDataUrl https://sme.uds.exeter.ac.uk/files/dc7f72943f024b7ddd95bb3123c687d1.bw
-shortLabel NeuN evoC % 5hmC
+shortLabel neuron evoC % 5hmC
 longLabel Percentage hydroxymethylation at CpG sites in neuronal cells using duet evoC
 visibility full
 color 173,216,230
@@ -118,10 +118,10 @@ autoScale off
 smoothingWindow 16
 maxHeightPixels 128:70:11
 
-track Sox10_evoC_5mC
+track oligo_evoC_5mC
 type bigWig
 bigDataUrl https://sme.uds.exeter.ac.uk/files/d8b8a8e2f6370efbe7131c6259b9eac3.bw
-shortLabel Sox10 evoC % 5mC
+shortLabel oligo evoC % 5mC
 longLabel Percentage methylation at CpG sites in oligodendrocytes using duet evoC
 visibility full
 color 139,0,0
@@ -133,10 +133,10 @@ autoScale off
 smoothingWindow 16
 maxHeightPixels 128:70:11
 
-track Sox10_evoC_5hmC
+track oligo_evoC_5hmC
 type bigWig
 bigDataUrl https://sme.uds.exeter.ac.uk/files/6786369f6731d6d2be77464599334b98.bw 
-shortLabel Sox10 evoC % 5hmC
+shortLabel oligo evoC % 5hmC
 longLabel Percentage hydroxymethylation at CpG sites in oligodendrocytes using duet evoC
 visibility full
 color 255,192,203
@@ -148,10 +148,10 @@ autoScale off
 smoothingWindow 16
 maxHeightPixels 128:70:11
 
-track NeuN_TWIST
+track neuron_TWIST
 type bigWig
 bigDataUrl https://sme.uds.exeter.ac.uk/files/c37a5f18a3f76b74d8af73637af8454e.bw
-shortLabel NeuN TWIST % mod
+shortLabel neuron TWIST % mod
 longLabel Percentage modified cytosine at TWIST HMP CpG sites in neuronal cells
 visibility full
 color 0,0,255
@@ -163,10 +163,10 @@ autoScale off
 smoothingWindow 16
 maxHeightPixels 128:70:11
 
-track Sox10_TWIST
+track oligo_TWIST
 type bigWig
 bigDataUrl https://sme.uds.exeter.ac.uk/files/cb8fa4b78e0e5739984f96c6c6f14e9a.bw
-shortLabel Sox10 TWIST % mod
+shortLabel oligo TWIST % mod
 longLabel Percentage modified cytosine at TWIST HMP CpG sites in oligodendrocytes
 visibility full
 color 255,0,0
@@ -178,10 +178,10 @@ autoScale off
 smoothingWindow 16
 maxHeightPixels 128:70:11
 
-track NeuN_EPICv2
+track neuron_array
 type bigWig
 bigDataUrl https://sme.uds.exeter.ac.uk/files/1e658a79741432e42e66ed4872f3403d.bw
-shortLabel NeuN EPICv2 % mod
+shortLabel neuron array % mod
 longLabel Percentage modified cytosine at CpG sites in neuronal cells using EPICv2 array
 visibility full
 color 0,0,255
@@ -192,10 +192,10 @@ viewLimits 0:100
 autoScale off
 maxHeightPixels 128:70:11
 
-track Sox10_EPICv2
+track oligo_array
 type bigWig
 bigDataUrl https://sme.uds.exeter.ac.uk/files/760acc8af4e660004f6197d666df0f14.bw
-shortLabel Sox10 EPICv2 % mod
+shortLabel oligo array % mod
 longLabel Percentage modified cytosine at CpG sites in oligodendrocytes using EPICv2 array
 visibility full
 color 255,0,0
@@ -206,10 +206,10 @@ viewLimits 0:100
 autoScale off
 maxHeightPixels 128:70:11
 
-track IRF8_EPICv2
+track micro_array
 type bigWig
 bigDataUrl https://sme.uds.exeter.ac.uk/files/1326f3e13f84e5ce41b618b85c859fcf.bw
-shortLabel IRF8 EPICv2 % mod
+shortLabel micro array % mod
 longLabel Percentage modified cytosine at CpG sites in microglial cells using EPICv2 array
 visibility full
 color 0,255,0
@@ -220,80 +220,80 @@ viewLimits 0:100
 autoScale off
 maxHeightPixels 128:70:11
 
-track NeuN_5hmC_enriched
+track neuron_5hmC_enriched
 type bigNarrowPeak
 bigDataUrl https://sme.uds.exeter.ac.uk/files/fcbeabd0e1b862d18dce0cb8752ecea3.bb
-shortLabel NeuN 5hmC enriched
-longLabel 5hmC enriched regions from hydroxymethylome capture library
+shortLabel neuron 5hmC enriched
+longLabel 5hmC enriched regions from neuronal hydroxymethylome capture library
 visibility dense
 
-track Sox10_5hmC_enriched
+track oligo_5hmC_enriched
 type bigNarrowPeak
 bigDataUrl https://sme.uds.exeter.ac.uk/files/25d0dc1d2c51c71a8256906dd783ff95.bb
-shortLabel Sox10 5hmC enriched
-longLabel 5hmC enriched regions from hydroxymethylome capture library
+shortLabel oligo 5hmC enriched
+longLabel 5hmC enriched regions from oligodendrocyte hydroxymethylome capture library
 visibility dense
 
-track NeuN_1st_quartile
+track neuron_1st_quartile
 type bigGenePred
 bigDataUrl https://sme.uds.exeter.ac.uk/files/f310101bf257f8c8c53f63632a78a750.bb
-shortLabel NeuN 1st quartile
-longLabel NeuN genes in 1st quartile based on RNA-seq expression (TPM)
+shortLabel neuron 1st quartile
+longLabel Genes in 1st quartile based on RNA-seq expression (TPM) in neuronal cells
 visibility dense
 color 0,0,139
 
-track NeuN_2nd_quartile
+track neuron_2nd_quartile
 type bigGenePred
 bigDataUrl https://sme.uds.exeter.ac.uk/files/27a6051cb5925db72e77c080bacfdc27.bb
-shortLabel NeuN 2nd quartile
-longLabel NeuN genes in 2nd quartile based on RNA-seq expression (TPM)
+shortLabel neuron 2nd quartile
+longLabel Genes in 2nd quartile based on RNA-seq expression (TPM) in neuronal cells
 visibility dense
 color 0,0,255
 
-track NeuN_3rd_quartile
+track neuron_3rd_quartile
 type bigGenePred
 bigDataUrl https://sme.uds.exeter.ac.uk/files/96186234869dcf25bc86ce6d931ccc3b.bb
-shortLabel NeuN 3rd quartile
-longLabel NeuN genes in 3rd quartile based on RNA-seq expression (TPM)
+shortLabel neuron 3rd quartile
+longLabel Genes in 3rd quartile based on RNA-seq expression (TPM) in neuronal cells
 visibility dense
 color 100,149,237
 
-track NeuN_4th_quartile
+track neuron_4th_quartile
 type bigGenePred
 bigDataUrl https://sme.uds.exeter.ac.uk/files/ee624be9ca94872688ea2f45bfc394d3.bb
-shortLabel NeuN 4th quartile
-longLabel NeuN genes in 4th quartile based on RNA-seq expression (TPM)
+shortLabel neuron 4th quartile
+longLabel Genes in 4th quartile based on RNA-seq expression (TPM) in neuronal cells
 visibility dense
 color 173,216,230
 
-track Sox10_1st_quartile
+track oligo_1st_quartile
 type bigGenePred
 bigDataUrl https://sme.uds.exeter.ac.uk/files/e0fdfc610b9c19f43ef19b33ce05e881.bb
-shortLabel Sox10 1st quartile
-longLabel Sox10 genes in 1st quartile based on RNA-seq expression (TPM)
+shortLabel oligo 1st quartile
+longLabel Genes in 4st quartile based on RNA-seq expression (TPM) in oligodendrocytes
 visibility dense
 color 100,0,0
 
-track Sox10_2nd_quartile
+track oligo_2nd_quartile
 type bigGenePred
 bigDataUrl https://sme.uds.exeter.ac.uk/files/78b9f406efe69137f77816cefeab7fed.bb
-shortLabel Sox10 2nd quartile
-longLabel Sox10 genes in 2nd quartile based on RNA-seq expression (TPM)
+shortLabel oligo 2nd quartile
+longLabel Genes in 2nd quartile based on RNA-seq expression (TPM) in oligodendrocytes
 visibility dense
 color 191,0,0
 
-track Sox10_3rd_quartile
+track oligo_3rd_quartile
 type bigGenePred
 bigDataUrl https://sme.uds.exeter.ac.uk/files/a2ae4708f2cc23d1b6cc7ffd11a06698.bb
-shortLabel Sox10 3rd quartile
-longLabel Sox10 genes in 3rd quartile based on RNA-seq expression (TPM)
+shortLabel oligo 3rd quartile
+longLabel Genes in 3rd quartile based on RNA-seq expression (TPM) in oligodendrocytes
 visibility dense
 color 255,0,0
 
-track Sox10_4th_quartile
+track oligo_4th_quartile
 type bigGenePred
 bigDataUrl https://sme.uds.exeter.ac.uk/files/dcfee671ddda57807fefaf8590844186.bb
-shortLabel Sox10 4th quartile
-longLabel Sox10 genes in 4th quartile based on RNA-seq expression (TPM)
+shortLabel oligo 4th quartile
+longLabel Genes in 4th quartile based on RNA-seq expression (TPM) in oligodendrocytes
 visibility dense
 color 255,150,150

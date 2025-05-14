@@ -266,3 +266,34 @@ longLabel NeuN genes in 4th quartile based on RNA-seq expression (TPM)
 visibility dense
 color 173,216,230
 
+track Sox10_1st_quartile
+type bigGenePred
+bigDataUrl https://sme.uds.exeter.ac.uk/files/e0fdfc610b9c19f43ef19b33ce05e881.bb
+shortLabel Sox10 1st quartile
+longLabel Sox10 genes in 1st quartile based on RNA-seq expression (TPM)
+visibility dense
+color 100,0,0
+
+track Sox10_2nd_quartile
+type bigGenePred
+bigDataUrl https://sme.uds.exeter.ac.uk/files/78b9f406efe69137f77816cefeab7fed.bb
+shortLabel Sox10 2nd quartile
+longLabel Sox10 genes in 2nd quartile based on RNA-seq expression (TPM)
+visibility dense
+color 191,0,0
+
+track Sox10_3rd_quartile
+type bigGenePred
+bigDataUrl https://sme.uds.exeter.ac.uk/files/a2ae4708f2cc23d1b6cc7ffd11a06698.bb
+shortLabel Sox10 3rd quartile
+longLabel Sox10 genes in 3rd quartile based on RNA-seq expression (TPM)
+visibility dense
+color 255,0,0
+
+track Sox10_4th_quartile
+type bigGenePred
+bigDataUrl https://sme.uds.exeter.ac.uk/files/dcfee671ddda57807fefaf8590844186.bb
+shortLabel Sox10 4th quartile
+longLabel Sox10 genes in 4th quartile based on RNA-seq expression (TPM)
+visibility dense
+color 255,69,69

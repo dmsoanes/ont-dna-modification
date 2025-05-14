@@ -240,7 +240,7 @@ bigDataUrl https://sme.uds.exeter.ac.uk/files/f310101bf257f8c8c53f63632a78a750.b
 shortLabel NeuN 1st quartile
 longLabel NeuN genes in 1st quartile based on RNA-seq expression (TPM)
 visibility dense
-color 0,0,128
+color 0,0,139
 
 track NeuN_2nd_quartile
 type bigGenePred
@@ -256,7 +256,7 @@ bigDataUrl https://sme.uds.exeter.ac.uk/files/96186234869dcf25bc86ce6d931ccc3b.b
 shortLabel NeuN 3rd quartile
 longLabel NeuN genes in 3rd quartile based on RNA-seq expression (TPM)
 visibility dense
-color 173,216,230
+color 100,149,237
 
 track NeuN_4th_quartile
 type bigGenePred
@@ -264,5 +264,5 @@ bigDataUrl https://sme.uds.exeter.ac.uk/files/ee624be9ca94872688ea2f45bfc394d3.b
 shortLabel NeuN 4th quartile
 longLabel NeuN genes in 4th quartile based on RNA-seq expression (TPM)
 visibility dense
-color 137,207,240
+color 173,216,230
 

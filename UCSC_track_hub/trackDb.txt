@@ -233,9 +233,10 @@ bigDataUrl https://sme.uds.exeter.ac.uk/files/2e020f69f9e350aec6ff8a568615fbea.b
 shortLabel neuron 5hmC CEGX raw
 longLabel 5hmC pileup data from neuronal hydroxymethylome capture library
 visibility full
-autoScale on
+autoScale off
 color 173,216,230
 yLineOnOff on
+viewLimits 0:360
 
 track oligo_CEGX_peak
 type bigNarrowPeak
@@ -250,9 +251,10 @@ bigDataUrl https://sme.uds.exeter.ac.uk/files/f207d31c82aa016dbd8c0415a895062f.b
 shortLabel oligo 5hmC CEGX raw
 longLabel 5hmC pileup data from oligodendrocyte hydroxymethylome capture library
 visibility full
-autoScale on
+autoScale off
 color 255,192,203
 yLineOnOff on
+viewLimits 0:360
 
 track neuron_1st_quartile
 type bigGenePred

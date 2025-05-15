@@ -319,3 +319,10 @@ shortLabel oligo 4th quartile
 longLabel Genes in 4th quartile based on RNA-seq expression (TPM) in oligodendrocytes
 visibility dense
 color 255,150,150
+
+track RepeatMasker
+type bigBed
+bigDataUrl https://sme.uds.exeter.ac.uk/files/1c9dae1b33ea5ed9ad88e980bc6cebca.bb
+shortLabel RepeatMasker
+longLabel Repetitive regions identified by RepeatMasker
+visibility dense

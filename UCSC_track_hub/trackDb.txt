@@ -234,7 +234,7 @@ shortLabel neuron 5hmC CEGX raw
 longLabel 5hmC pileup data from neuronal hydroxymethylome capture library
 visibility full
 autoScale on
-color 0,0,255
+color 173,216,230
 yLineOnOff on
 
 track oligo_CEGX_peak
@@ -251,7 +251,7 @@ shortLabel oligo 5hmC CEGX raw
 longLabel 5hmC pileup data from oligodendrocyte hydroxymethylome capture library
 visibility full
 autoScale on
-color 255,0,0
+color 255,192,203
 yLineOnOff on
 
 track neuron_1st_quartile

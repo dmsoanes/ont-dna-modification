@@ -227,10 +227,17 @@ shortLabel neuron 5hmC enriched
 longLabel 5hmC enriched regions from neuronal hydroxymethylome capture library
 visibility dense
 
-track neuron_5hmC_enriched_peak_bg
+track neuron_5hmC_enriched_bg
 type bigWig
 bigDataUrl https://sme.uds.exeter.ac.uk/files/0255e6df26be78702130d70d7e024c5a.bw
 shortLabel neuron 5hmC enriched bg
+longLabel 5hmC enriched regions from neuronal hydroxymethylome capture library
+visibility full
+
+track neuron_5hmC_enriched_bgr
+type bigWig
+bigDataUrl https://sme.uds.exeter.ac.uk/files/2e020f69f9e350aec6ff8a568615fbea.bw
+shortLabel neuron 5hmC enriched bgr
 longLabel 5hmC enriched regions from neuronal hydroxymethylome capture library
 visibility full
 
@@ -245,6 +252,13 @@ track oligo_5hmC_enriched_bg
 type bigWig
 bigDataUrl https://sme.uds.exeter.ac.uk/files/b7ac50f3be5387a82e674fb2a9dc0e6b.bw
 shortLabel oligo 5hmC enriched bg
+longLabel 5hmC enriched regions from oligodendrocyte hydroxymethylome capture library
+visibility full
+
+track oligo_5hmC_enriched_bgr
+type bigWig
+bigDataUrl https://sme.uds.exeter.ac.uk/files/f207d31c82aa016dbd8c0415a895062f.bw
+shortLabel oligo 5hmC enriched bgr
 longLabel 5hmC enriched regions from oligodendrocyte hydroxymethylome capture library
 visibility full
 

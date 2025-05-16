@@ -326,3 +326,24 @@ bigDataUrl https://sme.uds.exeter.ac.uk/files/1c9dae1b33ea5ed9ad88e980bc6cebca.b
 shortLabel RepeatMasker
 longLabel Repetitive regions identified by RepeatMasker
 visibility dense
+
+track CpG_islands
+type bigBed
+bigDataUrl https://sme.uds.exeter.ac.uk/files/5575d0af54cf22ce70cd7cda1a8021d5.bb
+shortLabel CpG islands
+longLabel CpG islands
+visibility dense
+
+track CpG_shelves
+type bigBed
+bigDataUrl https://sme.uds.exeter.ac.uk/files/baa3fce10894199df70d05bf06936987.bb
+shortLabel CpG shelves
+longLabel CpG shelves
+visibility dense
+
+track CpG_shores
+type bigBed
+bigDataUrl https://sme.uds.exeter.ac.uk/files/f63700114593528ed94fdfcc408efeb9.bb
+shortLabel CpG shores
+longLabel CpG shores
+visibility dense

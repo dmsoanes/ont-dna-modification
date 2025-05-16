@@ -350,7 +350,7 @@ visibility dense
 
 track CpG_annotation
 type bigBed
-bigDataUrl https://sme.uds.exeter.ac.uk/files/43357d48fce28ccac8c1e75453ab5950.bb
+bigDataUrl https://sme.uds.exeter.ac.uk/files/caa11ce719515d7bc6cc7f331777948d.bb
 shortLabel CpG annotation
 longLabel CpG annotation
 visibility dense

@@ -354,3 +354,4 @@ bigDataUrl https://sme.uds.exeter.ac.uk/files/43357d48fce28ccac8c1e75453ab5950.b
 shortLabel CpG annotation
 longLabel CpG annotation
 visibility dense
+itemRgb=On

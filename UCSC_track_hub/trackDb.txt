@@ -352,6 +352,6 @@ track CpG_annotation
 type bigBed 9
 bigDataUrl https://sme.uds.exeter.ac.uk/files/caa11ce719515d7bc6cc7f331777948d.bb
 shortLabel CpG annotation
-longLabel CpG annotation
+longLabel Green = CpG islands, Yellow = CpG shores, Light Blue = CpG shelves
 visibility dense
 itemRgb on

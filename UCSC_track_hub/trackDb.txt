@@ -349,7 +349,7 @@ longLabel CpG shores
 visibility dense
 
 track CpG_annotation
-type bigBed
+type bigBed 9
 bigDataUrl https://sme.uds.exeter.ac.uk/files/caa11ce719515d7bc6cc7f331777948d.bb
 shortLabel CpG annotation
 longLabel CpG annotation

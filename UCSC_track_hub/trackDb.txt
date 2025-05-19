@@ -334,3 +334,11 @@ shortLabel CpG annotation
 longLabel Green = CpG islands, Yellow = CpG shores, Light Blue = CpG shelves
 visibility dense
 itemRgb on
+
+track gene_annotation
+type bigBed 9
+bigDataUrl https://sme.uds.exeter.ac.uk/files/a4789277f5bb18ba77c5972093f8ae0f.bb
+shortLabel Gene annotation
+longLabel Orange = 1-5kb upstream, Dark Orange = promoter, Green = Exon, Grey = Intron, Blue = 5'UTR, Purple - 3'UTR
+visibility dense
+itemRgb on

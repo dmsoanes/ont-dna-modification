@@ -36,8 +36,9 @@ Create compressed, indexed GTP file using bgzip and tabix which are part of Samt
 Example code for creating plot using methylartist showing levels of modification in each phase.  
 More details at https://github.com/adamewing/methylartist
 
-`methylartist locus -b [phased_output_convert.bam] -g [genome_assembly.annotation.gtf.gz] --labelgenes --phased --ref [ref.fa] --motif CG -i chr20:31545000-31550000`
+`methylartist region -b [phased_output_convert.bam] -g [genome_assembly.annotation.gtf.gz] --labelgenes --phased --ref [ref.fa] --motif CG -i chr20:31514428-31577923 -l 31547027-31548129`
 >**[genome_assembly.annotation.gtf.gz]** - bgzip compressed gtf file  
 >**[phased_output_convert.bam]** - sorted bam file of primary reads aligned against reference genome tagged with phase information (5mC and 5hmC merged)  
 >**[ref.fa]** - reference genome (fasta file of genome assembly)  
->**-i chr20:31545000-31550000** - chromosomal region covered in plot 
+>**-i chr20:31514428-31577923** - chromosomal region covered in plot 
+>**-l 31547027-31548129** - highlighted region (optional)

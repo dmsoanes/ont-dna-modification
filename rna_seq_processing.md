@@ -11,8 +11,8 @@ Adapter and poor-quality sequences (mean_quality < 22) were trimmed from raw rea
 # Alignment to reference genome  
 Create STAR index from reference genome
 `STAR --runThreadN 16 --runMode genomeGenerate --genomeDir [STAR_index] --genomeFastaFiles [ref.fa] --sjdbGTFfile [ref.gtf] --sjdbOverhang 150`  
-> **[ref.fa]** - reference genome (fasta file of genome assembly)
-> **[ref.gtf]** - reference genome annotation(gtf file)
+> **[ref.fa]** - reference genome (fasta file of genome assembly)  
+> **[ref.gtf]** - reference genome annotation(gtf file)  
 > **[STAR_index]** - folder where STAR index will be created  
 
 STAR --runThreadN 16 --genomeDir /lustre/home/dmsoanes/references/gencode_v44/STAR_index_150 --readFilesIn ${stem}R1_001_fastp.fastq.gz ${stem}R2_001_fastp.fastq.gz --readFilesCommand zcat --outFileNamePrefix ../STAR_alignment/${stem} --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts

@@ -13,10 +13,15 @@ Reads of less than 75 bases in length after trimming will be discarded.
 Create STAR index from reference genome  
 `STAR --runThreadN 16 --runMode genomeGenerate --genomeDir [STAR_index] --genomeFastaFiles [ref.fa] --sjdbGTFfile [ref.gtf] --sjdbOverhang 150`  
 > **[ref.fa]** - reference genome (fasta file of genome assembly)  
-> **[ref.gtf]** - reference genome annotation(gtf file)  
+> **[ref.gtf]** - reference genome annotation (gtf file)  
 > **[STAR_index]** - folder where STAR index will be created  
 
 Align trimmed reads to reference genome and output bam file  
 `STAR --runThreadN 16 --genomeDir [STAR_index] --readFilesIn trimmed_read1.fastq.gz trimmed_read2.fastq.gz --readFilesCommand zcat --outFileNamePrefix [prefix] --outSAMtype BAM SortedByCoordinate`  
 > **[STAR_index]** - folder containing STAR index  
 > **[prefix]** - prefix added to output file  
+
+##Quantification of transcript abundance (transcripts per million)  
+TPMCalculator -a -g [ref.gtf] -b [prefix.bam]  
+> **[ref.gtf]** - reference genome annotation (gtf file)  
+> **[prefix.bam]** - bam file from STAR alignment  

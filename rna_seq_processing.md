@@ -21,7 +21,7 @@ Align trimmed reads to reference genome and output bam file
 > **[STAR_index]** - folder containing STAR index  
 > **[prefix]** - prefix added to output file  
 
-##Quantification of transcript abundance (transcripts per million)  
+## Quantification of transcript abundance (transcripts per million)  
 TPMCalculator -a -g [ref.gtf] -b [prefix.bam]  
 > **[ref.gtf]** - reference genome annotation (gtf file)  
 > **[prefix.bam]** - bam file from STAR alignment  

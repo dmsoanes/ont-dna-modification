@@ -19,7 +19,7 @@ Create STAR index from reference genome
 Align trimmed reads to reference genome and output bam file  
 `STAR --runThreadN 16 --genomeDir [STAR_index] --readFilesIn trimmed_read1.fastq.gz trimmed_read2.fastq.gz --readFilesCommand zcat --outFileNamePrefix [prefix] --outSAMtype BAM SortedByCoordinate`  
 > **[STAR_index]** - folder containing STAR index  
-> **[prefix]** - prefix added to output file  
+> **[prefix]** - prefix added to output files  
 
 ## Quantification of transcript abundance (transcripts per million)  
 `TPMCalculator -a -g [ref.gtf] -b [prefix.bam]`  

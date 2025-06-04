@@ -16,4 +16,7 @@ Create STAR index from reference genome
 > **[ref.gtf]** - reference genome annotation(gtf file)  
 > **[STAR_index]** - folder where STAR index will be created  
 
-STAR --runThreadN 16 --genomeDir /lustre/home/dmsoanes/references/gencode_v44/STAR_index_150 --readFilesIn ${stem}R1_001_fastp.fastq.gz ${stem}R2_001_fastp.fastq.gz --readFilesCommand zcat --outFileNamePrefix ../STAR_alignment/${stem} --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts
+Align trimmed reads to reference genome and output bam file  
+`STAR --runThreadN 16 --genomeDir [STAR_index] --readFilesIn trimmed_read1.fastq.gz trimmed_read2.fastq.gz --readFilesCommand zcat --outFileNamePrefix [prefix] --outSAMtype BAM SortedByCoordinate`  
+> **[STAR_index]** - folder containing STAR index  
+> **[prefix]** - prefix added to output file  

@@ -1,4 +1,4 @@
-# Modified Basecalling of ONT Data (5mC/5hmC at CpG sites)  
+# Modified Duplex Basecalling of ONT Data (5mC/5hmC at CpG sites)  
 ## Software used
 Dorado (v0.6.0): https://github.com/nanoporetech/dorado  
 POD5 format (including tools): https://github.com/nanoporetech/pod5-file-format  

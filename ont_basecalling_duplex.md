@@ -48,7 +48,7 @@ Sort and filter bam file to include only primary aligned reads and generate stat
 
 ### Extracting % modifications into tab-delimited files for downstream analyses  
 
-**Script:** [parse_bedmethyl_5mC_5hmC_duplex.pl](parse_bedmethyl_5mC_5hmC_duplex.pl)  
+**Script:** [parse_bedmethyl_5mC_5hmC_duplex.pl](scripts/parse_bedmethyl_5mC_5hmC_duplex.pl)  
 
 `perl parse_bedmethyl_5mC_5hmC_duplex.pl [aligned_sorted_primary.bed]`  
 > **[aligned_sorted_primary.bed]** - hemi-methylation bedMethyl table

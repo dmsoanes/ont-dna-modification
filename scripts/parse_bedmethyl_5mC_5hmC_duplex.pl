@@ -1,12 +1,11 @@
 #!/usr/bin/perl
 
-#open (INPUT, "Sox10_methyl_5mC_5hmC_head_1000.bed");
-#open (OUTPUThm, ">Sox10_methyl_5mC_5hmC_head_1000_hmC_out.bed");
-#open (OUTPUTm, ">Sox10_methyl_5mC_5hmC_head_1000_mC_out.bed");
+# Perl script to parse bedMethyl files producing two tab-delimited files containing %5mC / %5hmC at each CpG
+# Usage: perl parse_bedmethyl_5mC_5hmC_duplex.pl <input.bed> 
 
 $num_args=$#ARGV+1;
 if ($num_args !=1) {
-	print "\nUSAGE: parse_bedmethyl_5mC_5hmC_duplex.pl <input.bed>\n";
+	print "\nUSAGE: perl parse_bedmethyl_5mC_5hmC_duplex.pl <input.bed>\n";
 	exit;
 }
 $input = "$ARGV[0]";

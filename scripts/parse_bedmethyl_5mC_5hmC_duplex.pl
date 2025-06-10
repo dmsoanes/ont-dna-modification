@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-# Perl script to parse bedMethyl files producing two tab-delimited files containing %5mC / %5hmC at each CpG
+# Perl script to parse hemi-methylation bedMethyl files producing a tab-delimited file containing % modification for each base modification pattern at each CpG position
 # Usage: perl parse_bedmethyl_5mC_5hmC_duplex.pl <input.bed> 
 
 $num_args=$#ARGV+1;

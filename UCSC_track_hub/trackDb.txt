@@ -238,7 +238,7 @@ color 173,216,230
 yLineOnOff on
 viewLimits 0:360
 
-track oligo_CEGX_peak
+track oligo_5hmC_CEGX_peak
 type bigNarrowPeak
 bigDataUrl https://sme.uds.exeter.ac.uk/files/25d0dc1d2c51c71a8256906dd783ff95.bb
 shortLabel oligo 5hmC CEGX peak
@@ -342,3 +342,29 @@ shortLabel Gene annotation
 longLabel Orange = 1-5kb upstream, Dark Orange = promoter, Green = Exon, Grey = Intron, Blue = 5'UTR, Purple - 3'UTR
 visibility dense
 itemRgb on
+
+track neuron_RNA-seq
+type bigWig
+bigDataUrl https://sme.uds.exeter.ac.uk/files/dcb7d0db5f05f41f92917536d063f385.bw
+shortLabel neuron RNA-seq
+longLabel neuron RNA-seq coverage (CPM)
+visibility full
+autoScale on
+color 0,0,255
+yLineOnOff on
+graphTypeDefault bar
+windowingFunction mean
+maxHeightPixels 128:70:11
+
+track oligo_RNA-seq
+type bigWig
+bigDataUrl https://sme.uds.exeter.ac.uk/files/dcb7d0db5f05f41f92917536d063f385.bw
+shortLabel oligo RNA-seq
+longLabel oligodendrocyte RNA-seq coverage (CPM)
+visibility full
+autoScale on
+color 255,0,0
+yLineOnOff on
+graphTypeDefault bar
+windowingFunction mean
+maxHeightPixels 128:70:11

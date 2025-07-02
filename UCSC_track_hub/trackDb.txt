@@ -358,7 +358,7 @@ maxHeightPixels 128:70:11
 
 track oligo_RNA-seq
 type bigWig
-bigDataUrl https://sme.uds.exeter.ac.uk/files/dcb7d0db5f05f41f92917536d063f385.bw
+bigDataUrl https://sme.uds.exeter.ac.uk/files/1286763cbb59a7786ac726defd21882b.bw
 shortLabel oligo RNA-seq
 longLabel oligodendrocyte RNA-seq coverage (CPM)
 visibility full
